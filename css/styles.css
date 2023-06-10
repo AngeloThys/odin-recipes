@@ -1,0 +1,62 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 31, 117);
+}
+
+/* Index */
+
+.page-title {
+    text-align: center;
+}
+
+.recipe-list {
+    list-style: none;
+    text-align: center;
+}
+
+.recipe-list>li {
+    display: inline-block;
+}
+
+.recipe-list>li>a {
+    text-decoration: none;
+}
+
+.recipe-list>li>a:hover {
+    color: rgba(17, 30, 117, 0.50);
+}
+
+/* Recipes */
+
+.recipe-title {
+    text-align: center;
+}
+
+.recipe-parts-headers {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.ingredients {
+    display: inline-block;
+    text-align: left;
+}
+
+.steps {
+    display: inline-block;
+    text-align: left;
+}
+
+.recipe-image {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: auto;
+}
